@@ -1,19 +1,19 @@
 export const networkConfigs = {
   "0xa86a": {
-    chainId: 43114,
-    chainName: "Avalanche Mainnet",
-    currencyName: "AVAX",
-    currencySymbol: "AVAX",
-    rpcUrl: "https://api.avax.network/ext/bc/C/rpc",
-    blockExplorerUrl: "https://snowtrace.io/",
+    chainId: 97,
+    chainName: "Binance Smart Chain - Testnet",
+    currencyName: "Tesnet",
+    currencySymbol: "T-BSC",
+    rpcUrl: "https://data-seed-prebsc-1-s1.binance.org:8545/",
+    blockExplorerUrl: "https://testnet.bscscan.com",
   },
   "0xa869": {
-    chainId: 43113,
-    chainName: "Avalanche Fuji Testnet",
-    currencyName: "AVAX",
-    currencySymbol: "AVAX",
-    rpcUrl: "https://api.avax-test.network/ext/bc/C/rpc",
-    blockExplorerUrl: "https://testnet.snowtrace.io/",
+    chainId: 97,
+    chainName: "Binance Smart Chain - Testnet",
+    currencyName: "Tesnet",
+    currencySymbol: "T-BSC",
+    rpcUrl: "https://data-seed-prebsc-1-s1.binance.org:8545/",
+    blockExplorerUrl: "https://testnet.bscscan.com",
   },
 };
 

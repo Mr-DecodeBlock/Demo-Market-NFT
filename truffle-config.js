@@ -24,7 +24,7 @@ module.exports = {
     },
     fuji: {
       provider: () => new HDWalletProvider(mnemonic, '<nodeURL>'),
-      network_id: 43113, //mainnet === 43114
+      network_id: 97, //mainnet === 56
       confirmations: 2,
       timeoutBlocks: 200,
       skipDryRun: true,
