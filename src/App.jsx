@@ -60,7 +60,7 @@ export default function App() {
         >
         <Suspense fallback={<Spin size="large" style={{display: "flex", justifyContent: "center", transform: "translateY(30vh)"}} indicator={<LoadingOutlined style={{ fontSize: 50 }} spin />} />}>
           <Routes>
-            <Route path="/" element={<Mint />}/>
+           
             <Route path="/marketplace" element={<Marketplace />}/>
             <Route path="/wallet" element={<Wallet />} />
             <Route path="/activity" element={<Activity />} />
